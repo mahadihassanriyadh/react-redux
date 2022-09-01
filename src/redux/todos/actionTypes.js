@@ -1,3 +1,4 @@
+export const LOADED = "todos/loaded"; // for addig tasks to the list
 export const ADDED = "todos/added"; // for addig tasks to the list
 export const TOGGLED = "todos/toggled"; // for marking a task complete or incomplete
 export const COLORSELECTED = "todos/colorselected"; // select a color for a task / todo by importance, if the task is top priorty it will be red, if it has hte lowest priority it will be colored greeen or will have no color
