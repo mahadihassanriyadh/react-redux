@@ -9,7 +9,7 @@ const TodoList = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchTodos);
-  }, [])
+  }, [dispatch]);
   const filterByStatus = (todo) => {
     switch (status) {
       case "Complete":
