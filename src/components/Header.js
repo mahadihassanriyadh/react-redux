@@ -3,7 +3,7 @@ import notesIcon from "../images/notes.png";
 import plusIcon from "../images/plus.png";
 import doubleClickIcon from "../images/double-tick.png";
 import { useDispatch } from "react-redux";
-import { added, allCompleted, clearCompleted } from "../redux/todos/actions";
+import { allCompleted, clearCompleted } from "../redux/todos/actions";
 import addTodo from "../redux/todos/thunk/addTodo";
 
 const Header = () => {
