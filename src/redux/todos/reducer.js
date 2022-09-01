@@ -6,6 +6,7 @@ import {
   DELETED,
   ADDED,
   TOGGLED,
+  LOADED,
 } from "./actionTypes";
 
 function nextTodoId(todos) {
@@ -15,6 +16,8 @@ function nextTodoId(todos) {
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
+    case LOADED:
+      return [...action.payload];
     case ADDED:
       return [
         ...state,

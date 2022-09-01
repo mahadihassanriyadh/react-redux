@@ -14,6 +14,7 @@ const Header = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     dispatch(added(input));
+    setInput("");
   };
   const handleCompleteAll = () => {
     dispatch(allCompleted());
