@@ -4,11 +4,11 @@ const { counterActions } =
 const { dynamicCounterActions } = require("./features/dynamicCounter/dynamicCounterSlice");
 
 // initial state
-console.log(store.getState());
+// console.log(store.getState());
 
 // subscribe to the store for state changes
 store.subscribe(() => {
-  console.log(store.getState());
+  // console.log(store.getState());
 });
 
 // dispatching actions of normal counter
