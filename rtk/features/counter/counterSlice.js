@@ -1,8 +1,8 @@
-const createSlice = require("@reduxjs/toolkit");
+const { createSlice } = require("@reduxjs/toolkit");
 
 // initial state
 const initialState = {
-  value: 0,
+  count: 0,
 };
 
 // creating our slice
@@ -15,10 +15,10 @@ const counterSlice = createSlice({
     increment: (state, action) => {
       state.count++;
     },
-    decrement: (state, action) => { 
+    decrement: (state, action) => {
       state.count--;
-    }
-  }
+    },
+  },
 });
 
 // এটা মনে হতে পারে যে, উপরে আমরা reducers দিলাম, তবে এখানে কেন reducer লিখছি? আসলে উপরে createSlicer এর ভিতর আমরা আমাদের প্রয়োজনীয় reducers গুলো দিয়ে দিয়েছি। কিন্তু ultimately createSlice আমাদের reducers গুলো গ্রহণ করে, আমাদের একটাই reducer return করে। এই reducer টা আমরা ব্যবহার করব।
