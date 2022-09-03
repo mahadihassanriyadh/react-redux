@@ -1,7 +1,9 @@
 const store = require("./app/store");
-const { counterActions } =
-  require("./features/counter/counterSlice");
-const { dynamicCounterActions } = require("./features/dynamicCounter/dynamicCounterSlice");
+const { counterActions } = require("./features/counter/counterSlice");
+const {
+  dynamicCounterActions,
+} = require("./features/dynamicCounter/dynamicCounterSlice");
+const { fetchPosts } = require("./features/post/postSlice");
 
 // initial state
 // console.log(store.getState());
@@ -12,7 +14,7 @@ store.subscribe(() => {
 });
 
 // dispatching actions of normal counter
-store.dispatch(counterActions.increment());
+// store.dispatch(counterActions.increment());
 
 // dispatching actions of dynamic counter
 // store.dispatch(dynamicCounterActions.increment(5));
@@ -20,3 +22,6 @@ store.dispatch(counterActions.increment());
 // store.dispatch(dynamicCounterActions.increment(10));
 // store.dispatch(dynamicCounterActions.decrement(15));
 // store.dispatch(dynamicCounterActions.increment(100));
+
+// dispatching thunk actions from postSlice
+store.dispatch(fetchPosts());
