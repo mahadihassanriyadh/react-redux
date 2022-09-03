@@ -12,14 +12,11 @@ store.subscribe(() => {
 });
 
 // dispatching actions of normal counter
-// store.dispatch(counterActions.increment());
-// store.dispatch(counterActions.increment());
-// store.dispatch(counterActions.increment());
-// store.dispatch(counterActions.decrement());
+store.dispatch(counterActions.increment());
 
 // dispatching actions of dynamic counter
-store.dispatch(dynamicCounterActions.increment(5));
-store.dispatch(dynamicCounterActions.increment(5));
-store.dispatch(dynamicCounterActions.increment(10));
-store.dispatch(dynamicCounterActions.decrement(15));
-store.dispatch(dynamicCounterActions.increment(100));
+// store.dispatch(dynamicCounterActions.increment(5));
+// store.dispatch(dynamicCounterActions.increment(5));
+// store.dispatch(dynamicCounterActions.increment(10));
+// store.dispatch(dynamicCounterActions.decrement(15));
+// store.dispatch(dynamicCounterActions.increment(100));

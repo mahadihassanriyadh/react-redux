@@ -1,5 +1,5 @@
 const { createSlice } = require("@reduxjs/toolkit");
-
+const { counterActions } = require("../counter/counterSlice");
 // initial state
 const initialState = {
   count: 0,
@@ -18,6 +18,22 @@ const dynamicCounterSlice = createSlice({
     decrement: (state, action) => {
       state.count -= action.payload;
     },
+  },
+
+  // this is where we can handle other actions that are not part of this slice. For example, if we wanted to handle the increment action from the counter slice, we could do it here. Means we want to respond to the increment action from the counter slice in the dynamicCounter slice. We can do that by using the extraReducers property. We can pass in an object with the key being the action type and the value being the function that will be called when that action is dispatched. The function will receive the current state and the action object as arguments.
+
+  // Way 1 - Hard Coded
+  /*   extraReducers: {
+    ["counter/increment"]: (state, action) => {
+      state.count += 1;
+    },
+  }, */
+
+  // Way 2 (recommended)
+  extraReducers: (builder) => {
+    builder.addCase(counterActions.increment, (state, action) => {
+      state.count += 1;
+    });
   },
 });
 
