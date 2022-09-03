@@ -1,4 +1,7 @@
 const fetch = require("node-fetch");
+const { createStore, applyMiddleware } = require("redux");
+// we are using .default as this is a node js environment
+const thunk = require("redux-thunk").default;
 
 // initial state
 const initialState = {
@@ -70,3 +73,15 @@ const fetchPosts = () => {
     }
 }
 
+// create store
+// to use the thunk as our middleware we needed to install redux-thunk package
+// `npm i redux-thunk`
+const store = createStore(reducer, applyMiddleware(thunk));
+
+// subscribe to the store / state changes
+store.subscribe(() => { 
+    console.log(store.getState());
+});
+
+// dispatch action
+store.dispatch(fetchPosts());
