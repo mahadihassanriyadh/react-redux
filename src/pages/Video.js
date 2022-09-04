@@ -16,9 +16,9 @@ const Video = () => {
 
   useEffect(() => {
     dispatch(fetchVideoAsync(videoId));
-  }, [dispatch]);
+  }, [dispatch, videoId]);
 
-  const { link, title, date, description, likes, unlikes, tags, id } = video || {};
+  const { link, title, tags, id } = video || {};
 
   // decide what to render
   let content = null;
