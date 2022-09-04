@@ -7,6 +7,11 @@ import VideoGridItem from "./VideoGridItem";
 const VideoGrid = () => {
   const dispatch = useDispatch();
   const { videos, isLoading, isError, error } = useSelector(state => state.videos);
+  const { selectedTags, search } = useSelector(state => state.filter);
+
+  useEffect(() => {
+    dispatch(fetchVideosAsync({ selectedTags, search }));
+  }, [dispatch, selectedTags, search]);
 
   // decide what to render
   let content;
@@ -19,9 +24,7 @@ const VideoGrid = () => {
   } else if (videos?.length > 0) { 
     content = videos.map(video => <VideoGridItem key={video.id} video={video} />);
   }
-  useEffect(() => {
-    dispatch(fetchVideosAsync());
-  }, [dispatch]);
+
   return (
     <section className="pt-12">
       <section className="pt-12">

@@ -9,15 +9,18 @@ const initialState = {
 };
 
 // async thunk
-export const fetchVideosAsync = createAsyncThunk("videos/fetchVideos", async () => { 
-  const videos = await getVideos();
-  return videos;
-});
+export const fetchVideosAsync = createAsyncThunk(
+  "videos/fetchVideos",
+  async ({ selectedTags, search }) => {
+    const videos = await getVideos(selectedTags, search);
+    return videos;
+  }
+);
 
 const videosSlice = createSlice({
   name: "videos",
   initialState,
-  extraReducers: (builder) => { 
+  extraReducers: (builder) => {
     // before building cases we need to create the thunk
     builder
       .addCase(fetchVideosAsync.pending, (state) => {
@@ -28,13 +31,13 @@ const videosSlice = createSlice({
         state.isLoading = false;
         state.videos = action.payload;
       })
-      .addCase(fetchVideosAsync.rejected, (state, action) => { 
+      .addCase(fetchVideosAsync.rejected, (state, action) => {
         state.isLoading = false;
         state.videos = [];
         state.isError = true;
         state.error = action.error?.message;
       });
-  }
+  },
 });
 
 export default videosSlice.reducer;
