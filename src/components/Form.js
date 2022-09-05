@@ -67,6 +67,7 @@ const Form = () => {
     dispatch(editInActive());
     resetForm();
   };
+  
   return (
     <div className="form">
       <h3>Add new transaction</h3>

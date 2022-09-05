@@ -1,21 +1,21 @@
 {
   "transactions": [
     {
-      "name": "Salary from Microsoft",
+      "name": "Salary from Google",
       "type": "income",
-      "amount": 10000000,
+      "amount": 1000000,
       "id": 1
     },
     {
-      "id": 2,
-      "name": "Family Expenses",
+      "name": "Family expense",
       "type": "expense",
-      "amount": 200000
+      "amount": 300000,
+      "id": 2
     },
     {
-      "name": "Charger",
+      "name": "Entertainment",
       "type": "expense",
-      "amount": 4000,
+      "amount": 100000,
       "id": 3
     }
   ]
