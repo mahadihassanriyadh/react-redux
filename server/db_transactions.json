@@ -3,20 +3,26 @@
     {
       "name": "Salary from Google",
       "type": "income",
-      "amount": 1000000,
+      "amount": 700000,
       "id": 1
     },
     {
       "name": "Family expense",
       "type": "expense",
-      "amount": 300000,
+      "amount": 200000,
       "id": 2
     },
     {
-      "name": "Entertainment",
+      "name": "Car expense",
       "type": "expense",
-      "amount": 100000,
+      "amount": 60000,
       "id": 3
+    },
+    {
+      "name": "Investment earning",
+      "type": "income",
+      "amount": 350000,
+      "id": 4
     }
   ]
 }
