@@ -15,12 +15,12 @@ export const apiSlice = createApi({
         // getvideos আমাদের object এর প্রথম property। getVideos হচ্ছে ultimately আমাদের API এর নাম। যেহেতু এটা rtk query সে সবকিছু query এর মত চিন্তা করে। আমরা server থেকে যে data আনি সেটাই query। আরকটা জিনিস এখানে আছে, তা হলো mutation। mutation মানেই পরিবর্তন করা। Server থেকে data আনাই query, আর server এ post, put, pach, delete, যা server এর data পরিবর্তন করে দিবে তা ই mutation.
 
         // এখানে getVideos একটা query, এবং আমরা যে এই query করতে চাচ্ছি এখানে, তার jonyjony
-        getVideos: builder.query({
-            // we could have return a direct string too. but we are using a function here to make it dynamic. this function will return a string. We can recieved one prameter as well, if we need to pass multiple parameters then we can use an object.
-            query: () => `videos`,
-            // keepUnusedDataFor: 60, means if we have already fetched the data, then we will not fetch it again for 60 seconds. this is optional. By default it is set to 60 means it will fetcg unused data every 60 seconds. 
-            keepUnusedDataFor: 120,
-        }),
+    getVideos: builder.query({
+        // we could have return a direct string too. but we are using a function here to make it dynamic. this function will return a string. We can recieved one prameter as well, if we need to pass multiple parameters then we can use an object.
+        query: () => `videos`,
+        // keepUnusedDataFor: 60, means if we have already fetched the data, then we will not fetch it again for 60 seconds. this is optional. By default it is set to 60 means it will fetcg unused data every 60 seconds. 
+        keepUnusedDataFor: 120,
+    }),
         getVideo: builder.query({
             query: (id) => `videos/${id}`,
         }),
@@ -33,8 +33,15 @@ export const apiSlice = createApi({
                 return queryString;
             },
         }),
+        addVideo: builder.mutation({
+            query: (data) => ({
+                url: "videos",
+                method: "POST",
+                body: data,
+            }),
+        })
     })
 });
 
 // so how do we get the queries, redux query will return us hooks. so we can use the hooks in our components. Here in our endpoints we declared a property with the name getVideos, that is why apiSlice returned us with a hook with the same name by adding a suffix and prefix. use + GetVideos + Query.
-export const { useGetVideosQuery, useGetVideoQuery, useGetRelatedVideosQuery } = apiSlice;
+export const { useGetVideosQuery, useGetVideoQuery, useGetRelatedVideosQuery, useAddVideoMutation } = apiSlice;
