@@ -18,12 +18,23 @@ export const apiSlice = createApi({
         getVideos: builder.query({
             // we could have return a direct string too. but we are using a function here to make it dynamic. this function will return a string. We can recieved one prameter as well, if we need to pass multiple parameters then we can use an object.
             query: () => `videos`,
+            // keepUnusedDataFor: 60, means if we have already fetched the data, then we will not fetch it again for 60 seconds. this is optional. By default it is set to 60 means it will fetcg unused data every 60 seconds. 
+            keepUnusedDataFor: 120,
         }),
         getVideo: builder.query({
             query: (id) => `videos/${id}`,
+        }),
+        // http://localhost:9000/videos?title_like=javascript&title_like=react&id_ne=6
+        getRelatedVideos: builder.query({
+            query: ({ id, title }) => {
+                const tags = title.split(" ");
+                const likes = tags.map((tag) => `title_like=${tag}`);
+                const queryString = `videos?${likes.join("&")}&_limit=4&id_ne=${id}`;
+                return queryString;
+            },
         }),
     })
 });
 
 // so how do we get the queries, redux query will return us hooks. so we can use the hooks in our components. Here in our endpoints we declared a property with the name getVideos, that is why apiSlice returned us with a hook with the same name by adding a suffix and prefix. use + GetVideos + Query.
-export const { useGetVideosQuery, useGetVideoQuery } = apiSlice;
+export const { useGetVideosQuery, useGetVideoQuery, useGetRelatedVideosQuery } = apiSlice;

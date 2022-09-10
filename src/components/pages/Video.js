@@ -16,7 +16,8 @@ export default function Video() {
         isError,
         error,
     } = useGetVideoQuery(videoId);
-    const { link, title } = video || {};
+    const { link, title, id } = video || {};
+    console.log(id)
 
     let content = null;
     if (isLoading) {
@@ -45,7 +46,7 @@ export default function Video() {
                     </div>
 
                     {video?.id ? (
-                        <RelatedVideos />
+                        <RelatedVideos id={id} title={title} />
                     ) : isLoading ? (
                         <>
                             <RelatedVideoLoader /> <RelatedVideoLoader />{" "}
