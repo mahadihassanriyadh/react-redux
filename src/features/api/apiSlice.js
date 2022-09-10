@@ -19,8 +19,11 @@ export const apiSlice = createApi({
             // we could have return a direct string too. but we are using a function here to make it dynamic. this function will return a string. We can recieved one prameter as well, if we need to pass multiple parameters then we can use an object.
             query: () => `videos`,
         }),
+        getVideo: builder.query({
+            query: (id) => `videos/${id}`,
+        }),
     })
 });
 
 // so how do we get the queries, redux query will return us hooks. so we can use the hooks in our components. Here in our endpoints we declared a property with the name getVideos, that is why apiSlice returned us with a hook with the same name by adding a suffix and prefix. use + GetVideos + Query.
-export const { useGetVideosQuery } = apiSlice;
+export const { useGetVideosQuery, useGetVideoQuery } = apiSlice;
