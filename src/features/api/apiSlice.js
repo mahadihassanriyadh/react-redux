@@ -9,6 +9,7 @@ export const apiSlice = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: "http://localhost:9000/",
     }),
+    tagTypes: ["Videos"],
     // endpoints is an object where we can define all the endpoints we want to use in our application. such as get, post, put, delete, etc. Which is similar to the builder property in createSlice().
     //  
     endpoints: (builder) => ({
@@ -20,6 +21,7 @@ export const apiSlice = createApi({
         query: () => `videos`,
         // keepUnusedDataFor: 60, means if we have already fetched the data, then we will not fetch it again for 60 seconds. this is optional. By default it is set to 60 means it will fetcg unused data every 60 seconds. 
         keepUnusedDataFor: 120,
+        providesTags: ["Videos"],
     }),
         getVideo: builder.query({
             query: (id) => `videos/${id}`,
@@ -39,6 +41,7 @@ export const apiSlice = createApi({
                 method: "POST",
                 body: data,
             }),
+            invalidatesTags: ["Videos"],
         })
     })
 });
