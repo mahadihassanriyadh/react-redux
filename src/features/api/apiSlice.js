@@ -42,9 +42,16 @@ export const apiSlice = createApi({
                 body: data,
             }),
             invalidatesTags: ["Videos"],
-        })
+        }),
+        editVideo: builder.mutation({
+            query: ({id, data}) => ({
+                url: `videos/${id}`,
+                method: "PATCH",
+                body: data,
+            }),
+        }),
     })
 });
 
 // so how do we get the queries, redux query will return us hooks. so we can use the hooks in our components. Here in our endpoints we declared a property with the name getVideos, that is why apiSlice returned us with a hook with the same name by adding a suffix and prefix. use + GetVideos + Query.
-export const { useGetVideosQuery, useGetVideoQuery, useGetRelatedVideosQuery, useAddVideoMutation } = apiSlice;
+export const { useGetVideosQuery, useGetVideoQuery, useGetRelatedVideosQuery, useAddVideoMutation, useEditVideoMutation } = apiSlice;
