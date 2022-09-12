@@ -9,7 +9,6 @@ export default function EditVideo() {
         data: video,
         isLoading,
         isError,
-        error,
     } = useGetVideoQuery(videoId);
 
     // decide what to render

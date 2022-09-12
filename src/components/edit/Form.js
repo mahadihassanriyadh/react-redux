@@ -18,7 +18,7 @@ export default function Form({ video }) {
         thumbnail: initialThumbnail,
     } = video || {};
 
-    const [editVideo, { isLoading, isError, isSuccess, error }] =
+    const [editVideo, { isLoading, isError, isSuccess }] =
         useEditVideoMutation();
     const [title, setTitle] = useState(initialTitle);
     const [description, setDescription] = useState(initialDescription);
