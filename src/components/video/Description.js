@@ -4,7 +4,6 @@ import deleteImage from "../../assets/delete.svg";
 import editImage from "../../assets/edit.svg";
 import { useDeleteVideoMutation } from "../../features/api/apiSlice";
 import Error from "../ui/Error";
-import Success from "../ui/Success";
 
 export default function Description({ video }) {
     const { title, date, id, description } = video || {};
