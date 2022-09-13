@@ -23,6 +23,18 @@
       "password": "$2a$10$b1Qx/0by1wvR3Jht6jGI2eewJudZ1YxQCewICXyA2FBhnaX87P/d.",
       "name": "piya",
       "id": 4
+    },
+    {
+      "email": "piya2@lws.com",
+      "password": "$2a$10$XmIZ1hzI8acpeAbH6Ph5Fet/SkvuupEKuJhjTLm1Ch82BLhQDskH.",
+      "name": "Piya2",
+      "id": 5
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
+      "name": "test",
+      "id": 6
     }
   ],
   "conversations": [
