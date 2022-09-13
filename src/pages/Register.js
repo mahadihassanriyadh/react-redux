@@ -38,8 +38,6 @@ export default function Register() {
     };
 
     useEffect(() => {
-        console.log(data);
-        console.log(responseError);
         if (responseError?.data) {
             setError(responseError.data);
         } else if (data?.accessToken && data?.user) {
@@ -67,7 +65,6 @@ export default function Register() {
                     </div>
                     <form
                         className="mt-8 space-y-6"
-                        action="#"
                         method="POST"
                         onSubmit={handleSubmit}
                     >
