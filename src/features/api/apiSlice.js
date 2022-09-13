@@ -6,12 +6,12 @@ export const apiSlice = createApi({
         baseUrl: process.env.REACT_APP_API_URL,
         prepareHeaders: async (headers, { getState, endpoint }) => {
             console.log(getState());
-            const token = getState()?.auth?.token;
-            if (token) { 
+            const token = getState()?.auth?.accessToken;
+            if (token) {
                 headers.set("Authorization", `Bearer ${token}`);
             }
             return headers;
-        }
+        },
     }),
     // tagTypes=[],
     endpoints: (builder) => ({}),
