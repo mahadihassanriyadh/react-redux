@@ -1,6 +1,6 @@
 import { apiSlice } from "../api/apiSlice";
 
-export const authApi = apiSlice.injectEndpoints({
+export const msessagesApi = apiSlice.injectEndpoints({
     endpoints: (builder) => ({
         
     })
