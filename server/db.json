@@ -50,17 +50,18 @@
       "users": [
         {
           "email": "piya@lws.com",
-          "name": "Sumit Saha",
-          "id": 1
+          "name": "piya",
+          "id": 4
         },
         {
           "email": "rafi@lws.com",
-          "name": "Akash Ahmed",
+          "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
+          "name": "Rafi",
           "id": 2
         }
       ],
-      "message": "Hello akash",
-      "timestamp": 1662369958211
+      "message": "Hello",
+      "timestamp": 1663223248141
     },
     {
       "id": 2,
@@ -299,324 +300,341 @@
   ],
   "messages": [
     {
-        "id": 1,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1661976143557
+      "id": 1,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1661976143557
     },
     {
-        "id": 2,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1661976143678
+      "id": 2,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1661976143678
     },
     {
-        "id": 3,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375403114
+      "id": 3,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375403114
     },
     {
-        "id": 4,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375412924
+      "id": 4,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375412924
     },
     {
-        "id": 5,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375420764
+      "id": 5,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375420764
     },
     {
-        "id": 6,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375429225
+      "id": 6,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375429225
     },
     {
-        "id": 7,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375438622
+      "id": 7,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375438622
     },
     {
-        "id": 8,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375445901
+      "id": 8,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375445901
     },
     {
-        "id": 9,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375453924
+      "id": 9,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375453924
     },
     {
-        "id": 10,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375462537
+      "id": 10,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375462537
     },
     {
-        "id": 11,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375469999
+      "id": 11,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375469999
     },
     {
-        "id": 12,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375478940
+      "id": 12,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375478940
     },
     {
-        "id": 13,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375485358
+      "id": 13,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375485358
     },
     {
-        "id": 14,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375491456
+      "id": 14,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375491456
     },
     {
-        "id": 15,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375497312
+      "id": 15,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375497312
     },
     {
-        "id": 16,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375504067
+      "id": 16,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375504067
     },
     {
-        "id": 17,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375509540
+      "id": 17,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375509540
     },
     {
-        "id": 18,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are you?",
-        "timestamp": 1662375518115
+      "id": 18,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1662375518115
     },
     {
-        "id": 19,
-        "conversationId": 1,
-        "sender": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "receiver": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "message": "Hello",
-        "timestamp": 1662375526982
+      "id": 19,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1662375526982
     },
     {
-        "id": 20,
-        "conversationId": 1,
-        "sender": {
-            "email": "rafi@lws.com",
-            "name": "Akash Ahmed",
-            "id": 2
-        },
-        "receiver": {
-            "email": "piya@lws.com",
-            "name": "Sumit Saha",
-            "id": 1
-        },
-        "message": "How are yous?",
-        "timestamp": 1662375533498
+      "id": 20,
+      "conversationId": 1,
+      "sender": {
+        "email": "rafi@lws.com",
+        "name": "Akash Ahmed",
+        "id": 2
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "Sumit Saha",
+        "id": 1
+      },
+      "message": "How are yous?",
+      "timestamp": 1662375533498
+    },
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "receiver": {
+        "email": "rafi@lws.com",
+        "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
+        "name": "Rafi",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1663223248141,
+      "id": 21
     }
-]
+  ]
 }
