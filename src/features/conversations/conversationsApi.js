@@ -12,7 +12,7 @@ export const conversationsApi = apiSlice.injectEndpoints({
                 `conversations?participants_like=${userEmail}-${participantEmail}&participants_like=${participantEmail}-${userEmail}`,
         }),
         addConversation: builder.mutation({
-            query: (data) => ({
+            query: ({ sender, data }) => ({
                 url: "conversations",
                 method: "POST",
                 body: data,
@@ -22,19 +22,54 @@ export const conversationsApi = apiSlice.injectEndpoints({
                 const conversation = await queryFulfilled;
                 if (conversation?.id) {
                     // silent entry to message table
-                    dispatch(messagesApi.endpoints.addMessage.initiate({
-                        conversationId: conversation.id,
-                        
-                    }));
+                    const users = arg.data.users;
+                    const senderUser = users.find(
+                        (user) => user.email === arg.sender
+                    );
+                    const receiverUser = users.find(
+                        (user) => user.email !== arg.sender
+                    );
+                    dispatch(
+                        messagesApi.endpoints.addMessage.initiate({
+                            conversationId: conversation.id,
+                            sender: senderUser,
+                            receiver: receiverUser,
+                            message: arg.data.message,
+                            timestamp: arg.data.timestamp,
+                        })
+                    );
                 }
             },
         }),
         editConversation: builder.mutation({
-            query: ({ id, data }) => ({
+            query: ({ sender, id, data }) => ({
                 url: `conversations/${id}`,
                 method: "PATCH",
                 body: data,
             }),
+            // if we want to do somwthing after the request is done
+            async onQueryStarted(arg, { dispatch, queryFulfilled }) {
+                const conversation = await queryFulfilled;
+                if (conversation?.data?.id) {
+                    // silent entry to message table
+                    const users = arg.data.users;
+                    const senderUser = users.find(
+                        (user) => user.email === arg.sender
+                    );
+                    const receiverUser = users.find(
+                        (user) => user.email !== arg.sender
+                    );
+                    dispatch(
+                        messagesApi.endpoints.addMessage.initiate({
+                            conversationId: conversation.id,
+                            sender: senderUser,
+                            receiver: receiverUser,
+                            message: arg.data.message,
+                            timestamp: arg.data.timestamp,
+                        })
+                    );
+                }
+            },
         }),
     }),
 });

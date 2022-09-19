@@ -80,6 +80,7 @@ export default function Modal({ open, control }) {
         if (conversation?.length > 0) {
             editConversation({
                 id: conversation[0].id,
+                sender: myEmail,
                 data: {
                     participants: `${myEmail}-${to}`,
                     users: [loggedInUser, participant[0]],
