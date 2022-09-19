@@ -20,7 +20,7 @@ export const conversationsApi = apiSlice.injectEndpoints({
             // if we want to do somwthing after the request is done
             async onQueryStarted(arg, { dispatch, queryFulfilled }) {
                 const conversation = await queryFulfilled;
-                if (conversation?.id) {
+                if (conversation?.data?.id) {
                     // silent entry to message table
                     const users = arg.data.users;
                     const senderUser = users.find(
@@ -31,7 +31,7 @@ export const conversationsApi = apiSlice.injectEndpoints({
                     );
                     dispatch(
                         messagesApi.endpoints.addMessage.initiate({
-                            conversationId: conversation.id,
+                            conversationId: conversation?.data?.id,
                             sender: senderUser,
                             receiver: receiverUser,
                             message: arg.data.message,
@@ -61,7 +61,7 @@ export const conversationsApi = apiSlice.injectEndpoints({
                     );
                     dispatch(
                         messagesApi.endpoints.addMessage.initiate({
-                            conversationId: conversation.id,
+                            conversationId: conversation?.data?.id,
                             sender: senderUser,
                             receiver: receiverUser,
                             message: arg.data.message,

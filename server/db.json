@@ -65,103 +65,212 @@
           "id": 1
         }
       ],
-      "message": "Blockchain is awesome",
-      "timestamp": 1663567448855,
-      "id": 1,
-      "data": {
-        "participants": "piya@lws.com-mahadihassanriyadh1@gmail.com",
-        "users": [
-          {
-            "email": "piya@lws.com",
-            "name": "piya",
-            "id": 4
-          },
-          {
-            "email": "mahadihassanriyadh1@gmail.com",
-            "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-            "name": "Mahadi Hassan",
-            "id": 1
-          }
-        ],
-        "message": "Bhai",
-        "timestamp": 1663571033180
-      }
+      "message": "Bhaiya ektu dorkar chilo",
+      "timestamp": 1663584959150,
+      "id": 1
     },
     {
-      "participants": "piya@lws.com-rafi@lws.com",
+      "participants": "riyadh.study@gmail.com-piya@lws.com",
       "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "rafi@lws.com",
-          "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
-          "name": "Rafi",
-          "id": 2
-        }
-      ],
-      "message": "Kire rafi",
-      "timestamp": 1663570793673,
-      "id": 2,
-      "data": {
-        "participants": "piya@lws.com-rafi@lws.com",
-        "users": [
-          {
-            "email": "piya@lws.com",
-            "name": "piya",
-            "id": 4
-          },
-          {
-            "email": "rafi@lws.com",
-            "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
-            "name": "Rafi",
-            "id": 2
-          }
-        ],
-        "message": "fdf",
-        "timestamp": 1663571011868
-      }
-    },
-    {
-      "participants": "piya@lws.com-riyadh.study@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
         {
           "email": "riyadh.study@gmail.com",
-          "password": "$2a$10$FW3xMUArzYRgnmSO.nHxIeflHiXiKoiIm53VnemLJvfN3xSXPZ2G2",
           "name": "Riyadh",
           "id": 8
+        },
+        {
+          "email": "piya@lws.com",
+          "name": "piya",
+          "id": 4
         }
       ],
-      "message": "aSISH?",
-      "timestamp": 1663571183048,
+      "message": "Kobe theke shuru korba bolo",
+      "timestamp": 1663585772668,
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "receiver": {
+        "email": "mahadihassanriyadh1@gmail.com",
+        "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
+        "name": "Mahadi Hassan",
+        "id": 1
+      },
+      "message": "Hello Riyadh bhai",
+      "timestamp": 1663572367333,
+      "id": 1
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "receiver": {
+        "email": "riyadh.study@gmail.com",
+        "password": "$2a$10$FW3xMUArzYRgnmSO.nHxIeflHiXiKoiIm53VnemLJvfN3xSXPZ2G2",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "message": "Bhai asish?",
+      "timestamp": 1663572380345,
+      "id": 2
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "password": "$2a$10$b1Qx/0by1wvR3Jht6jGI2eewJudZ1YxQCewICXyA2FBhnaX87P/d.",
+        "name": "piya",
+        "id": 4
+      },
+      "message": "Jee bhai bolen",
+      "timestamp": 1663572450447,
       "id": 3
     },
     {
-      "participants": "piya@lws.com-test@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "test@gmail.com",
-          "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
-          "name": "test",
-          "id": 6
-        }
-      ],
-      "message": "fdf",
-      "timestamp": 1663571022604,
+      "conversationId": 1,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "receiver": {
+        "email": "mahadihassanriyadh1@gmail.com",
+        "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
+        "name": "Mahadi Hassan",
+        "id": 1
+      },
+      "message": "Bhaiya ektu dorkar chilo",
+      "timestamp": 1663584959150,
       "id": 4
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "password": "$2a$10$b1Qx/0by1wvR3Jht6jGI2eewJudZ1YxQCewICXyA2FBhnaX87P/d.",
+        "name": "piya",
+        "id": 4
+      },
+      "message": "Bhai Blockchain eto joss ken",
+      "timestamp": 1663585008856,
+      "id": 5
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "password": "$2a$10$b1Qx/0by1wvR3Jht6jGI2eewJudZ1YxQCewICXyA2FBhnaX87P/d.",
+        "name": "piya",
+        "id": 4
+      },
+      "message": "Eta te time dite hobe bujli",
+      "timestamp": 1663585087996,
+      "id": 6
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "password": "$2a$10$b1Qx/0by1wvR3Jht6jGI2eewJudZ1YxQCewICXyA2FBhnaX87P/d.",
+        "name": "piya",
+        "id": 4
+      },
+      "message": "Okay bhai on it",
+      "timestamp": 1663585539008,
+      "id": 7
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "receiver": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "message": "Okay bhai bhalo bolso",
+      "timestamp": 1663585733968,
+      "id": 8
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "receiver": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "message": "Thanks bhai",
+      "timestamp": 1663585744227,
+      "id": 9
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "message": "Okay bhai",
+      "timestamp": 1663585762946,
+      "id": 10
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "riyadh.study@gmail.com",
+        "name": "Riyadh",
+        "id": 8
+      },
+      "receiver": {
+        "email": "piya@lws.com",
+        "name": "piya",
+        "id": 4
+      },
+      "message": "Kobe theke shuru korba bolo",
+      "timestamp": 1663585772668,
+      "id": 11
     }
-  ],
-  "messages": []
+  ]
 }
