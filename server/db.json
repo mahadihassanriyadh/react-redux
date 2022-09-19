@@ -3,7 +3,7 @@
     {
       "email": "mahadihassanriyadh1@gmail.com",
       "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-      "name": "Riyadh",
+      "name": "Mahadi Hassan",
       "id": 1
     },
     {
@@ -41,9 +41,34 @@
       "password": "$2a$10$c21z/3.i4Yh27ZEUY5epHu8zIwHi1/g/4mPV9wM8IV17cnIO83//a",
       "name": "Rakin",
       "id": 7
+    },
+    {
+      "email": "riyadh.study@gmail.com",
+      "password": "$2a$10$FW3xMUArzYRgnmSO.nHxIeflHiXiKoiIm53VnemLJvfN3xSXPZ2G2",
+      "name": "Riyadh",
+      "id": 8
     }
   ],
   "conversations": [
+    {
+      "participants": "piya@lws.com-mahadihassanriyadh1@gmail.com",
+      "users": [
+        {
+          "email": "piya@lws.com",
+          "name": "piya",
+          "id": 4
+        },
+        {
+          "email": "mahadihassanriyadh1@gmail.com",
+          "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
+          "name": "Mahadi Hassan",
+          "id": 1
+        }
+      ],
+      "message": "Blockchain is awesome",
+      "timestamp": 1663567448855,
+      "id": 1
+    },
     {
       "participants": "piya@lws.com-rafi@lws.com",
       "users": [
@@ -59,31 +84,12 @@
           "id": 2
         }
       ],
-      "message": "Hello",
-      "timestamp": 1663223544300,
-      "id": 1
-    },
-    {
-      "participants": "piya@lws.com-zid@lws.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "zid@lws.com",
-          "password": "$2a$10$/WCa0dqHssD4RaFql.plDeRIEu45VvYaXEvzsyBsZulpxI.tkQcNK",
-          "name": "zid",
-          "id": 3
-        }
-      ],
-      "message": "Hello",
-      "timestamp": 1663223633956,
+      "message": "Grief",
+      "timestamp": 1663567473321,
       "id": 2
     },
     {
-      "participants": "piya@lws.com-zid@lws.com",
+      "participants": "piya@lws.com-riyadh.study@gmail.com",
       "users": [
         {
           "email": "piya@lws.com",
@@ -91,333 +97,16 @@
           "id": 4
         },
         {
-          "email": "zid@lws.com",
-          "password": "$2a$10$/WCa0dqHssD4RaFql.plDeRIEu45VvYaXEvzsyBsZulpxI.tkQcNK",
-          "name": "zid",
-          "id": 3
+          "email": "riyadh.study@gmail.com",
+          "password": "$2a$10$FW3xMUArzYRgnmSO.nHxIeflHiXiKoiIm53VnemLJvfN3xSXPZ2G2",
+          "name": "Riyadh",
+          "id": 8
         }
       ],
-      "message": "Hello again",
-      "timestamp": 1663223646378,
+      "message": "How are you bhai?",
+      "timestamp": 1663567485089,
       "id": 3
-    },
-    {
-      "participants": "piya@lws.com-test@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "test@gmail.com",
-          "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
-          "name": "test",
-          "id": 6
-        }
-      ],
-      "message": "df",
-      "timestamp": 1663225142070,
-      "id": 4
-    },
-    {
-      "participants": "piya@lws.com-test@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "test@gmail.com",
-          "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
-          "name": "test",
-          "id": 6
-        }
-      ],
-      "message": "Hello",
-      "timestamp": 1663224870423,
-      "id": 5
-    },
-    {
-      "participants": "piya@lws.com-mahadihassanriyadh1@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "mahadihassanriyadh1@gmail.com",
-          "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-          "name": "Riyadh",
-          "id": 1
-        }
-      ],
-      "message": "df",
-      "timestamp": 1663225162880,
-      "id": 6
-    },
-    {
-      "participants": "piya@lws.com-mahadihassanriyadh1@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "mahadihassanriyadh1@gmail.com",
-          "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-          "name": "Riyadh",
-          "id": 1
-        }
-      ],
-      "message": "df",
-      "timestamp": 1663225165657,
-      "id": 7
-    },
-    {
-      "participants": "piya@lws.com-mahadihassanriyadh1@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "mahadihassanriyadh1@gmail.com",
-          "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-          "name": "Riyadh",
-          "id": 1
-        }
-      ],
-      "message": "sdfsdf\n",
-      "timestamp": 1663225222166,
-      "id": 8
     }
   ],
-  "messages": [
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "rafi@lws.com",
-        "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
-        "name": "Rafi",
-        "id": 2
-      },
-      "message": "Hello",
-      "timestamp": 1663223322588,
-      "id": 1
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "rafi@lws.com",
-        "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
-        "name": "Rafi",
-        "id": 2
-      },
-      "message": "Hello",
-      "timestamp": 1663223330876,
-      "id": 2
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "rafi@lws.com",
-        "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
-        "name": "Rafi",
-        "id": 2
-      },
-      "message": "Nice",
-      "timestamp": 1663223339400,
-      "id": 3
-    },
-    {
-      "conversationId": 1,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "rafi@lws.com",
-        "password": "$2a$10$2q5d7YlHfI2c7NxGupGP8uo6t/eqOlkV/TCrEjn4lzBddMgF4m6vi",
-        "name": "Rafi",
-        "id": 2
-      },
-      "message": "Hello",
-      "timestamp": 1663223544300,
-      "id": 4
-    },
-    {
-      "conversationId": 2,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "zid@lws.com",
-        "password": "$2a$10$/WCa0dqHssD4RaFql.plDeRIEu45VvYaXEvzsyBsZulpxI.tkQcNK",
-        "name": "zid",
-        "id": 3
-      },
-      "message": "Hello",
-      "timestamp": 1663223633956,
-      "id": 5
-    },
-    {
-      "conversationId": 3,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "zid@lws.com",
-        "password": "$2a$10$/WCa0dqHssD4RaFql.plDeRIEu45VvYaXEvzsyBsZulpxI.tkQcNK",
-        "name": "zid",
-        "id": 3
-      },
-      "message": "Hello again",
-      "timestamp": 1663223646378,
-      "id": 6
-    },
-    {
-      "conversationId": 4,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "test@gmail.com",
-        "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
-        "name": "test",
-        "id": 6
-      },
-      "message": "Hello",
-      "timestamp": 1663224864801,
-      "id": 7
-    },
-    {
-      "conversationId": 5,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "test@gmail.com",
-        "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
-        "name": "test",
-        "id": 6
-      },
-      "message": "Hello",
-      "timestamp": 1663224870423,
-      "id": 8
-    },
-    {
-      "conversationId": 4,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "test@gmail.com",
-        "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
-        "name": "test",
-        "id": 6
-      },
-      "message": "df",
-      "timestamp": 1663225136842,
-      "id": 9
-    },
-    {
-      "conversationId": 4,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "test@gmail.com",
-        "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
-        "name": "test",
-        "id": 6
-      },
-      "message": "df",
-      "timestamp": 1663225142070,
-      "id": 10
-    },
-    {
-      "conversationId": 6,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "mahadihassanriyadh1@gmail.com",
-        "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-        "name": "Riyadh",
-        "id": 1
-      },
-      "message": "df",
-      "timestamp": 1663225162880,
-      "id": 11
-    },
-    {
-      "conversationId": 7,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "mahadihassanriyadh1@gmail.com",
-        "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-        "name": "Riyadh",
-        "id": 1
-      },
-      "message": "df",
-      "timestamp": 1663225165657,
-      "id": 12
-    },
-    {
-      "conversationId": 8,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "mahadihassanriyadh1@gmail.com",
-        "password": "$2a$10$wPr6kDDMdMN04mqzTxDLI.uON1bTWqRGtO6wjGXLplJP5XonYEixG",
-        "name": "Riyadh",
-        "id": 1
-      },
-      "message": "sdfsdf\n",
-      "timestamp": 1663225222166,
-      "id": 13
-    }
-  ]
+  "messages": []
 }
