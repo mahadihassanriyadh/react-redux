@@ -65,8 +65,8 @@
           "id": 6
         }
       ],
-      "message": "Testing.....",
-      "timestamp": 1663620073599,
+      "message": "Good bhai",
+      "timestamp": 1664064831126,
       "id": 1
     },
     {
@@ -103,28 +103,9 @@
           "id": 8
         }
       ],
-      "message": "fsdfsasf",
-      "timestamp": 1663620284976,
+      "message": "Ki khobor bhai",
+      "timestamp": 1664064824572,
       "id": 3
-    },
-    {
-      "participants": "piya@lws.com-riyadh.study@gmail.com",
-      "users": [
-        {
-          "email": "piya@lws.com",
-          "name": "piya",
-          "id": 4
-        },
-        {
-          "email": "riyadh.study@gmail.com",
-          "password": "$2a$10$FW3xMUArzYRgnmSO.nHxIeflHiXiKoiIm53VnemLJvfN3xSXPZ2G2",
-          "name": "Riyadh",
-          "id": 8
-        }
-      ],
-      "message": "oka",
-      "timestamp": 1663620274486,
-      "id": 4
     }
   ],
   "messages": [
@@ -197,7 +178,7 @@
       "id": 4
     },
     {
-      "conversationId": 4,
+      "conversationId": 3,
       "sender": {
         "email": "piya@lws.com",
         "name": "piya",
@@ -209,43 +190,26 @@
         "name": "Riyadh",
         "id": 8
       },
-      "message": "oka",
-      "timestamp": 1663620274486,
+      "message": "Ki khobor bhai",
+      "timestamp": 1664064824572,
       "id": 5
     },
     {
-      "conversationId": 3,
+      "conversationId": 1,
       "sender": {
         "email": "piya@lws.com",
         "name": "piya",
         "id": 4
       },
       "receiver": {
-        "email": "riyadh.study@gmail.com",
-        "password": "$2a$10$FW3xMUArzYRgnmSO.nHxIeflHiXiKoiIm53VnemLJvfN3xSXPZ2G2",
-        "name": "Riyadh",
-        "id": 8
+        "email": "test@gmail.com",
+        "password": "$2a$10$HeLWPbPAj5URWX/NPN7o9eDXHYp8XEhZMkaGxMPleK8h5T1p7rxrC",
+        "name": "test",
+        "id": 6
       },
-      "message": "sdfaf",
-      "timestamp": 1663620277797,
+      "message": "Good bhai",
+      "timestamp": 1664064831126,
       "id": 6
-    },
-    {
-      "conversationId": 3,
-      "sender": {
-        "email": "piya@lws.com",
-        "name": "piya",
-        "id": 4
-      },
-      "receiver": {
-        "email": "riyadh.study@gmail.com",
-        "password": "$2a$10$FW3xMUArzYRgnmSO.nHxIeflHiXiKoiIm53VnemLJvfN3xSXPZ2G2",
-        "name": "Riyadh",
-        "id": 8
-      },
-      "message": "fsdfsasf",
-      "timestamp": 1663620284976,
-      "id": 7
     }
   ]
 }
